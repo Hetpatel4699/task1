@@ -1,0 +1,39 @@
+/* .mainHeader{
+  width: "98vw";
+  display: flex;
+  justify-content: end;
+}
+
+.mainDiv{
+width: "95vw";
+height: "100vh";
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+.app {
+  text-align: center;
+  background-color: rgb(49, 49, 49);
+  color: rgb(176, 165, 165);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.btnStyle {
+  background-color: #a9a9a9;
+  color: black;
+  font-size: 25px;
+  margin: 0 25px;
+  border: none;
+  border-radius: 7px;
+}
+
+.btnGroup{
+  display: flex;
+}

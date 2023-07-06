@@ -1,0 +1,84 @@
+.form-label{
+    font-size: 1.4vw;
+    margin-top: 2vh;
+}
+
+.main-header{
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    color: white;
+}
+
+.containerData{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.5vw;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(22, 14, 34);
+    color: white;
+    overflow: auto;
+    
+
+}
+
+.formData{
+    text-align: start;
+    margin-top: 4vh;
+}
+
+.formContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.DataDetail{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusOn{
+    text-decoration: line-through;
+}
+
+.dataHeader{
+    font-size: 3.5vw;
+    color: white;
+    margin-bottom: 3vh;
+}
+
+.AddBtn{
+    margin-top: 3vh;
+    border-radius: 10px;
+    background-color: rgba(39, 228, 156, 0.938);
+    color: black;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    padding: 0.5vw 3vw;
+    border: 1px solid white;
+    width: 30%;
+}
+
+.btnSubmit{
+    width: 100%;
+    margin-bottom: 7vh;
+    text-align: center;
+}
+
+.deleteBtn{
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 1.2vh;
+}
